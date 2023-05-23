@@ -1,0 +1,22 @@
+.question{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.question-number{
+    font-weight: 900;
+    font-size: 17px;
+}
+.question-text{
+    font-size: 28px;
+    font-weight: lighter;
+    margin-bottom: 28px;
+    text-align: center;
+}
+.answer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 15px;
+    width: 72%;
+}
